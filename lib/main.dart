@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practiceapp/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,6 +30,7 @@ class _RootPageState extends State<RootPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body: const HomePage(),
       appBar: AppBar(
         title: const Text("Flutter App"),
       ),
